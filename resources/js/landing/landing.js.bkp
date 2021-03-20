@@ -1,0 +1,50 @@
+// animate helper - calls TW Animation class, works with multiple class childs
+let vAnimateHelper = (event, element, value) => {
+
+  let v = document.getElementsByClassName(element); // className Selector
+
+  for (let i = 0; i < document.getElementsByClassName(element).length; i++) { //forloop 0 - lenght of DOM array
+    v[i].addEventListener(event, function(){v[i].classList.add(value); // Add tw animation class name to v[i]
+    setTimeout(function(){ // Start timeout function to automatically stop bounce animation
+      v[i].classList.remove(value);
+    },1500); //End timeout function
+    })   
+  }
+}// End Animate Helper
+
+vAnimateHelper('mouseenter', 'hover-bounce-images', 'animate-bounce'); // Start function 
+vAnimateHelper('mouseenter', 'login-button-hero', 'animate-bounce'); // Start function 
+
+
+
+let progressBarFiller = (progressBarId) => { // Start fill progress bar function
+  let progress = 0;
+  let invervalSpeed = 10;
+  let incrementSpeed = 1;
+  let bar = document.getElementById(progressBarId);
+  progressInterval = setInterval(function(){
+    progress += incrementSpeed;
+    bar.style.width = progress + "%";
+    if(progress >= 100){
+      clearInterval(progressInterval);
+    }
+  }, invervalSpeed);
+}// End fill progress bar function
+
+
+let fillProgressBar = () => {
+  document.getElementById('bar-event-starter').addEventListener('pointerenter', function doit(){
+    setTimeout(function(){
+      progressBarFiller('bar');
+    },500);
+    setTimeout(function(){
+      document.getElementById('bar-event-starter').removeEventListener('pointerenter', doit())
+    },1000); 
+  })
+}
+
+fillProgressBar();
+
+    
+
+
