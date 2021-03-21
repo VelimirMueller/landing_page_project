@@ -13,7 +13,7 @@
         <div class="text-center">
           <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase"><span class="text-red-400 animate-pulse">Blog</span></h2>
           <p class="mt-1 text-4xl font-extrabold text-gray-100 sm:text-5xl sm:tracking-tight lg:text-6xl">Besseres SEO durch Blogs</p>
-          <p class="max-w-xl mt-5 mx-auto text-xl text-gray-200">Wenn Sie über eine Landingpage verfügen, wollten Sie sich überlegen, zusätzlich einen Blog zu führen. Dadurch steigt Ihr Traffic und mehr potentielle Kunden werden auf Sie aufmerksam.</p>
+          <p class="max-w-xl mt-5 mx-auto text-xl text-gray-200">Wenn Sie über einen Webauftritt verfügen oder damit starten wollen, sollten Sie sich überlegen, zusätzlich einen Blog zu führen. Dadurch haben Sie die Möglichkeit Ihren Traffic zu steigen und mehr potentielle Kunden könnten auf Sie aufmerksam werden.</p>
           <br><br>
           <span class="animate-ping text-gray-100 delay-1000">&#8609;&#8609;</span> 
         </div>

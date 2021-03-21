@@ -22,7 +22,8 @@
                 <br><br>
                 Kein Problem, wir kreieren für Sie maßgeschneiderte IT-Lösungen die sich nicht nur durch einwandfreie Technik auszeichnet, sondern auch optisch überzeugt. 
               </p>
-              
+              <br>
+              <a class="block w-full hover:bg-purple-800 hover:text-white hover:shadow-4xl hover:border-gray-200 hover:text-shadow border-indigo-900 transition-all duration-1000 ease-out py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="#">Mehr erfahren</a>
             </div>
           </div>
           <div class="mt-16 sm:mt-24 lg:mt-0 lg:col-span-6">
@@ -359,23 +360,23 @@
         <!-- Contact form -->
         <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
           <h3 class="text-lg font-medium text-gray-900">Senden Sie uns eine Nachricht</h3>
-          <form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 transition-all duration-1000 ease-in-out">
             <div>
               <label for="first_name" class="block text-sm font-medium text-gray-900">Vorname</label>
               <div class="mt-1">
-                <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
+                <input type="text" name="first_name" id="first_name" autocomplete="given-name" class="form-focus-bottom focus:ring-purple-500 focus:border-purple-500 py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
               </div>
             </div>
             <div>
               <label for="last_name" class="block text-sm font-medium text-gray-900">Nachname</label>
               <div class="mt-1">
-                <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
+                <input type="text" name="last_name" id="last_name" autocomplete="family-name" class="form-focus-bottom focus:ring-purple-500 focus:border-purple-500 py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
               </div>
             </div>
             <div>
               <label for="email" class="block text-sm font-medium text-gray-900">E-Mail</label>
               <div class="mt-1">
-                <input id="email" name="email" type="email" autocomplete="email" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
+                <input id="email" name="email" type="email" autocomplete="email" class="form-focus-bottom focus:ring-purple-500 focus:border-purple-500 py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
               </div>
             </div>
             <div>
@@ -384,13 +385,13 @@
                 <span id="phone-optional" class="text-sm text-gray-500">Optional</span>
               </div>
               <div class="mt-1">
-                <input type="text" name="phone" id="phone" autocomplete="tel" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md" aria-describedby="phone-optional">
+                <input type="text" name="phone" id="phone" autocomplete="tel" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-purple-500 focus:border-purple-500 border-gray-300 rounded-md" aria-describedby="phone-optional">
               </div>
             </div>
             <div class="sm:col-span-2">
               <label for="subject" class="block text-sm font-medium text-gray-900">Betreff</label>
               <div class="mt-1">
-                <input type="text" name="subject" id="subject" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
+                <input type="text" name="subject" id="subject" class="form-focus-bottom focus:ring-purple-500 focus:border-purple-500 py-3 px-4 block w-full shadow-sm text-gray-900 border-gray-300 rounded-md">
               </div>
             </div>
             <div class="sm:col-span-2">
@@ -399,12 +400,12 @@
                 <span id="message-max" class="text-sm text-gray-500">Max. 500 Zeichen</span>
               </div>
               <div class="mt-1">
-                <textarea id="message" name="message" rows="4" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" aria-describedby="message-max"></textarea>
+                <textarea id="message" name="message" rows="4" class="form-focus-bottom py-3 px-4 block w-full shadow-sm text-gray-900 focus:ring-purple-500 focus:border-purple-500 border-gray-300 rounded-md" aria-describedby="message-max"></textarea>
               </div>
             </div>
             <div class="sm:col-span-2 sm:flex sm:justify-end">
-              <button type="submit" class="block w-full hover:bg-purple-800 hover:text-white hover:shadow-4xl hover:border-gray-200 hover:text-shadow border-indigo-900 transition-all duration-1000 ease-out py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto">
-                Submit
+              <button type="submit" class="block w-full hover:bg-purple-800 hover:text-white hover:shadow-4xl hover:border-gray-200 hover:text-shadow border-purple-900 transition-all duration-1000 ease-out py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-purple-700 hover:bg-gray-50 sm:inline-block sm:w-auto">
+                Absenden
               </button>
             </div>
           </form>

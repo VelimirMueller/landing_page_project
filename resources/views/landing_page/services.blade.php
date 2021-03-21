@@ -15,7 +15,10 @@
           <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase"><span class="text-red-400 animate-pulse">Services</span></h2>
           <p class="mt-1 text-4xl font-extrabold text-gray-100 sm:text-5xl sm:tracking-tight lg:text-6xl">Dienstleistungen und mehr</p>
           <p class="max-w-xl mt-5 mx-auto text-xl text-gray-200">Erfahren Sie mehr über unser Angebot. Wir bieten vollumfassende IT-Dienstleistungen an. Von der Programmierung bis zur Beratung.</p>
-          <br><br>
+          <br>
+          <a class="block w-full hover:bg-purple-800 hover:text-white hover:shadow-4xl hover:border-gray-200 hover:text-shadow border-indigo-900 transition-all duration-1000 ease-out py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto" href="#">Termin vereinbaren</a>
+          <br>
+          <br>
           <span class="animate-ping text-gray-100 delay-1000">&#8609;&#8609;</span>
         </div>
       </div>
@@ -49,14 +52,14 @@
     <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
       <div class="bg-white rounded-2xl shadow-xl">
         <div class="relative pt-16 px-6 pb-8 md:px-8">
-          <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+          <div class="absolute top-0 p-5 inline-block bg-purple-600 rounded-xl shadow-lg transform -translate-y-1/2">
             <!-- Heroicon name: outline/phone -->
             <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
           </div>
           <h3 class="text-xl font-medium text-gray-900">Development</h3>
-          <p class="mt-4 text-base text-gray-500">Websites, Webapplications,</p>
+          <p class="mt-4 text-base text-gray-500">Webdevelopment, Mobile/Hybride-Apps, Cloud-Dienste, Automatisierung</p>
         </div>
         <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
           <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Kontaktieren Sie uns.<span aria-hidden="true"> &rarr;</span></a>
@@ -65,14 +68,14 @@
 
       <div class="bg-white rounded-2xl shadow-xl">
         <div class="relative pt-16 px-6 pb-8 md:px-8">
-          <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+          <div class="absolute top-0 p-5 inline-block bg-purple-600 rounded-xl shadow-lg transform -translate-y-1/2">
             <!-- Heroicon name: outline/support -->
             <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
             </svg>
           </div>
           <h3 class="text-xl font-medium text-gray-900">Administration</h3>
-          <p class="mt-4 text-base text-gray-500">Servermanagement,  Automatisierung</p>
+          <p class="mt-4 text-base text-gray-500">Einrichtung von Serversystemen,  Administration, Absicherung</p>
         </div>
         <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
           <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Kontaktieren Sie uns.<span aria-hidden="true"> &rarr;</span></a>
@@ -81,14 +84,14 @@
 
       <div class="bg-white rounded-2xl shadow-xl">
         <div class="relative pt-16 px-6 pb-8 md:px-8">
-          <div class="absolute top-0 p-5 inline-block bg-indigo-600 rounded-xl shadow-lg transform -translate-y-1/2">
+          <div class="absolute top-0 p-5 inline-block bg-purple-600 rounded-xl shadow-lg transform -translate-y-1/2">
             <!-- Heroicon name: outline/newspaper -->
             <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
             </svg>
           </div>
           <h3 class="text-xl font-medium text-gray-900">Support</h3>
-          <p class="mt-4 text-base text-gray-500">IT-Security</p>
+          <p class="mt-4 text-base text-gray-500">IT-Sicherheit, Beratung</p>
         </div>
         <div class="p-6 bg-gray-50 rounded-bl-2xl rounded-br-2xl md:px-8">
           <a href="#" class="text-base font-medium text-indigo-700 hover:text-indigo-600">Kontaktieren Sie uns.<span aria-hidden="true"> &rarr;</span></a>

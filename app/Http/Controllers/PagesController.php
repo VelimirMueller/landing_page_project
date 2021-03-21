@@ -32,3 +32,4 @@ class PagesController extends Controller
     return view('landing_page.contact');
   }
 }
+

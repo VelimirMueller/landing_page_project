@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
-use App\Http\Controllers\PostsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +21,13 @@ Route::get('/functions', [PagesController::class, 'functions']);
 Route::get('/blog', [PagesController::class, 'blog']);
 Route::get('/contact', [PagesController::class, 'contact']);
 
+
+Route::get('/admin-panel', function () {
+    return view('admin_panel.index');
+})->middleware(['auth'])->name('admin_panel');
+
+Route::get('/admin-panel/kalender', function () {
+    return view('admin_panel.calendar');
+})->middleware(['auth'])->name('admin_panel.calendar');
+
+require __DIR__.'/auth.php';
