@@ -420,5 +420,12 @@
 @endsection
 
 @section('javascript') <!-- LandingPage only  Javascript-->
-
+<script>
+// With the element initially hidden, we can show it slowly:
+$( "#clickme" ).click(function() {
+  $( "#book" ).fadeIn( "slow", function() {
+    // Animation complete
+  });
+});
+</script>
 @endsection

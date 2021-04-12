@@ -141,7 +141,7 @@
           <nav class="mt-5 flex-1" aria-label="Sidebar">
             <div class="px-2 space-y-1">
               <!-- Current: "bg-gray-200 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-              <a href="#" class="bg-gray-200 text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+              <a href="#" class="text-gray-900 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
                 <!-- Current: "text-gray-500", Default: "text-gray-400 group-hover:text-gray-500" -->
                 <!-- Heroicon name: outline/home -->
                 <svg class="text-gray-500 mr-3 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

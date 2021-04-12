@@ -57,7 +57,7 @@
 
           <a href="{{url('/services')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Services</a>
 
-          <a href="{{url('/functions')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Funktionen</a>
+          <!-- <a href="{{url('/functions')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Funktionen</a> -->
 
           <a href="{{url('/blog')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Blog</a>
 
@@ -84,14 +84,7 @@
     </nav>
 
     <!--
-      Mobile menu, show/hide based on menu open state.
-
-      Entering: "duration-150 ease-out"
-        From: "opacity-0 scale-95"
-        To: "opacity-100 scale-100"
-      Leaving: "duration-100 ease-in"
-        From: "opacity-100 scale-100"
-        To: "opacity-0 scale-95"
+      Mobile menu
     -->
     <div id="mobileMenu" class="absolute top-0 inset-x-0 p-2 origin-top-right duration-1000 ease-in-out opacity-100 hidden opacity-0 h-screen absolute">
       <div class="rounded-lg shadow-md bg-gradient-to-r from-gray-800 via-purple-700 to-purple-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -118,7 +111,7 @@
 
           <a href="{{url('/services')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Services</a>
 
-          <a href="{{url('/functions')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Funktionen</a>
+          <!-- <a href="{{url('/functions')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Funktionen</a> -->
 
           <a href="{{url('/blog')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Blog</a>
 
