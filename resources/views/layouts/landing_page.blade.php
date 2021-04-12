@@ -17,24 +17,6 @@
   </head>
 <body>
 
-
-<!-- This example requires Tailwind CSS v2.0+ -->
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ]
-  }
-  ```
--->
 <div class="relative bg-gradient-to-r from-gray-800 via-purple-700 to-purple-600 overflow-hidden">
   <div class="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
     <svg class="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0" width="364" height="384" viewBox="0 0 364 384" fill="none">
@@ -75,7 +57,7 @@
 
           <a href="{{url('/services')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Services</a>
 
-          <a href="{{url('/functions')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Funktionen</a>
+          <!-- <a href="{{url('/functions')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Funktionen</a> -->
 
           <a href="{{url('/blog')}}" class="font-medium text-white hover:shadow-2xl transform-gpu hover:skew-x-6 hover:underline hover:-skew-y-6 transition-all duration-1000 ease-out">Blog</a>
 
@@ -84,7 +66,15 @@
       </div>
       <div class="hidden md:block">
         <a href="{{url('/login')}}" class="login-button-hero login-button-hero inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-          <span class="animate-bounce px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">Zum Log in</span>
+          <span class="animate-bounce px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full">
+          
+          @auth<!-- auth system checks if user is logged in or not-->
+          Zum Dashboard
+          @else
+          Zum Log in
+          @endauth
+          
+          </span>
           <!-- Heroicon name: solid/chevron-right -->
           <svg class="w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
@@ -94,14 +84,7 @@
     </nav>
 
     <!--
-      Mobile menu, show/hide based on menu open state.
-
-      Entering: "duration-150 ease-out"
-        From: "opacity-0 scale-95"
-        To: "opacity-100 scale-100"
-      Leaving: "duration-100 ease-in"
-        From: "opacity-100 scale-100"
-        To: "opacity-0 scale-95"
+      Mobile menu
     -->
     <div id="mobileMenu" class="absolute top-0 inset-x-0 p-2 origin-top-right duration-1000 ease-in-out opacity-100 hidden opacity-0 h-screen absolute">
       <div class="rounded-lg shadow-md bg-gradient-to-r from-gray-800 via-purple-700 to-purple-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -128,7 +111,7 @@
 
           <a href="{{url('/services')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Services</a>
 
-          <a href="{{url('/functions')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Funktionen</a>
+          <!-- <a href="{{url('/functions')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Funktionen</a> -->
 
           <a href="{{url('/blog')}}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-900 hover:bg-gray-50 transition-all duration-500 ease-out">Blog</a>
 
